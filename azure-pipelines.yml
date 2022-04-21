@@ -15,7 +15,8 @@ variables:
 steps:
 - script: 
     echo "$(FirstVariable)"
-    echo "Testing output"
+- script:     
+    echo "$(SecondVariable)"
 - script: 
     echo "-----Starting Build----"
 # - script: dotnet build --configuration $(buildConfiguration)
