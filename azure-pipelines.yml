@@ -15,7 +15,6 @@ variables:
 steps:
 - script: 
     echo "$(FirstVariable)"
-    echo "$(SecondSecretVariable)"
     echo "Testing output"
 - script: 
     echo "-----Starting Build----"
