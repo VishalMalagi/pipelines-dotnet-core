@@ -16,7 +16,7 @@ steps:
 - script: 
     echo "$(FirstVariable)"
 - script:     
-    echo "$(SecondVariable)"
+    echo "$(SecondSecretVariable)"
 - script: 
     echo "-----Starting Build----"
 # - script: dotnet build --configuration $(buildConfiguration)
