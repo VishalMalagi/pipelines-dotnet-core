@@ -15,6 +15,7 @@ variables:
 steps:
 - script: 
     echo "$(FirstVariable)"
+    echo "$(SecondSecretVariable)"
 - script:     
     echo "$(SecondSecretVariable)"
 - script: 
